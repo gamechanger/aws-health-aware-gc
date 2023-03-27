@@ -3,11 +3,11 @@
 # Customize Alerts/Notifications
 aha_primary_region="us-east-1"
 aha_secondary_region=""
-AWSOrganizationsEnabled="No"
+AWSOrganizationsEnabled="Yes"
 AWSHealthEventType="issue | accountNotification | scheduledChange"
 
 # Communication Channels - Slack/Microsoft Teams/Amazon Chime And/or EventBridge
-SlackWebhookURL=""
+SlackWebhookURL="https://hooks.slack.com/services/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"
 MicrosoftTeamsWebhookURL=""
 AmazonChimeWebhookURL=""
 EventBusName=""
@@ -21,7 +21,7 @@ Subject="AWS Health Alert"
 # By default, AHA reports events affecting all AWS regions.
 # If you want to report on certain regions you can enter up to 10 in a comma separated format.
 EventSearchBack="1"
-Regions="all regions"
+Regions="us-east-1"
 ManagementAccountRoleArn=""
 ExcludeAccountIDs=""
 
